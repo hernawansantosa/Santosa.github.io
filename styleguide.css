@@ -1,0 +1,289 @@
+*{
+    font-family: monospace;
+    box-sizing: border-box;
+}
+
+.nav{
+    border-bottom: 2px solid black;
+    width: 100%;
+}
+
+.nav > li{
+    display: inline;
+}
+
+.nav-img{
+    height: 30px;
+    padding: 5px;
+}
+
+.judul{
+    text-align: center;  
+}
+
+.judul h1{
+    font-size: 60px;
+    margin-top: 100px;
+}
+
+.judul h2{
+    font-size: 40px;
+    margin-bottom: 200px;
+}
+
+.container-desc{
+    width: 94%;
+    height: 250px;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 40px;
+}
+
+.desc{
+    text-align: left;
+    font-size: 20px;
+    margin: auto;
+}
+
+a{
+    text-decoration: none;  
+    color: black;
+}
+
+.list-desc{
+    text-align: left;
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+    text-decoration: none;
+}
+
+.container-defcolor{
+    width: 100%;
+    height: 700px;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+
+.container-color1{
+    width: 70%;
+    height: 100px;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 10px;
+    background-color: rgb(0, 0, 255);
+    margin: 0  auto 10px;
+}
+
+.container-color2{
+    width: 70%;
+    height: 100px;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 0  auto 10px;
+    background-color: rgb(4, 117, 255);
+}
+
+.container-color3{
+    width: 70%;
+    height: 100px;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 0  auto 10px;
+    background-color: rgb(4, 180, 255);
+}
+
+.container-color4{
+    width: 70%;
+    height: 100px;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 0  auto 10px;
+    background-color: rgb(4, 255, 242);
+}
+
+
+
+.color{
+    margin: 0 40px;
+}
+
+#head-color{
+    font-size: 25px;
+}
+
+.desc-color{
+    font-size: 20px;
+}
+
+
+#head-font{
+    font-size: 25px;
+}
+
+#color-desc{
+    text-align: center;
+}
+
+.desc-font{
+    font-size: 20px;
+}
+
+.container-deffont{
+    width: 94%;
+    height: 700px;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    margin-left: 43px;
+    margin-bottom: 20px;
+    padding: 20px;
+
+}
+
+.helvetica{
+   text-align: center;
+   position: relative;
+   right: 300px;
+}
+
+
+#helvetica1{
+    font-family: Helvetica;
+}
+
+#helvetica2{
+    font-family: Helvetica;
+    font-weight: bold;
+}
+
+#helvetica3{
+    font-family: Helvetica;
+    font-style: italic;
+}
+
+.gill-sans{
+    text-align: center;
+    position: relative;
+    bottom: 155px;
+    left: 200px;
+ }
+ 
+ 
+ #gill-sans1{
+     font-family: 'Gill Sans';
+ }
+ 
+ #gill-sans2{
+     font-family: 'Gill Sans';
+     font-weight: bold;
+ }
+ 
+ #gill-sans3{
+     font-family: 'Gill Sans';
+     font-style: italic;
+ }
+
+ .tahoma{
+    text-align: center;
+ }
+ 
+ 
+ #tahoma1{
+     font-family: Tahoma;
+ }
+ 
+ #tahoma2{
+     font-family: Tahoma;
+     font-weight: bold;
+ }
+ 
+ #tahoma3{
+     font-family: Tahoma;
+     font-style: italic;
+ }
+
+ .container-text{
+    width: 94%;
+    height: 400px;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    margin-left: 43px;
+    margin-bottom: 20px;
+    padding: 20px;
+
+ }
+
+ body::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    background-image: url("https://img.freepik.com/free-vector/abstract-blue-geometric-shapes-background_1035-23061.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.4;
+    z-index: -4; 
+  }
+
+  .color::before {
+    content: "";
+    position: absolute;
+    top: 789px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 90%;
+    background-image: url("https://media.istockphoto.com/id/513475408/vector/geometric-blue-ice-texture-background.jpg?s=612x612&w=0&k=20&c=DSEqlMhPHXMtDTKxhycOzIgwgxAotQvHWiBPdPx8GhE=");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.4;
+    z-index: -3; 
+  }
+
+  .font::before {
+    content: "";
+    position: absolute;
+    top: 1498px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 92%;
+    background-image: url("https://images.freeimages.com/clg/istock/previews/9533/95337083-abstract-blue-geometric-shapes-background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.4;
+    z-index: -2; 
+  }
+
+
+.text::before {
+    content: "";
+    position: absolute;
+    top: 1900px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxAydpvBjG_NDmxNVns2EpD1vgFerFYk2_QIpQXqMq0H0kvnW6ETP0naRUyeNffj4HCV8&usqp=CAU");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.2;
+    z-index: 1; 
+  }
